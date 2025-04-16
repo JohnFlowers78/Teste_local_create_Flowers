@@ -1,0 +1,27 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte padrão da aplicação */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Estilos globais para containers */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+
+  /* Centralizando com flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinhamento horizontal */
+  min-height: 100vh; /* Garante que o conteúdo ocupe a altura total da tela */
+}
