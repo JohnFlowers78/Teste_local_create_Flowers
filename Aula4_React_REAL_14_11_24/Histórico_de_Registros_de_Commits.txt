@@ -14,9 +14,11 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________
 3 - Corrigi alguns problemas...   --   Ainda não subi pro commit/commit_nem_concepcionado
 _____________________________________________________________________________________________
-
-
-
-Fiquei pirando em o que poderia usar a página que desenvolvemos com o professor para puxar o 
+                      _____________
+            ---        I.D.É.I.A.S      ¬
+                      =============
+_____________________________________________________________________________________________
+▸Fiquei pirando em o que poderia usar a página que desenvolvemos com o professor para puxar o 
 endereço de algum CEP que for digitado, buscando via aquela página para webScrapping que veio 
 junto com o projeto base do React que o professor nos passou.
+_____________________________________________________________________________________________

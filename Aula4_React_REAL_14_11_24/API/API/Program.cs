@@ -51,7 +51,43 @@ app.MapPost("/api/categoria/cadastrar", ([FromBody] Categoria categoria,
     ctx.Categorias.Add(categoria);
     ctx.SaveChanges();
     return Results.Created("", categoria);
-}); 
+});
+
+app.MapGet("/api/categoria/buscar/{categoriaId}", ([FromRoute] int categoriaId,
+ [FromServices] AppDataContext ctx) => 
+ {
+    Categoria? categoria = ctx.Categorias.Find(categoriaId);
+    if (categoria == null)
+    {
+        return Results.NotFound();
+    }
+    return Results.Ok(categoria);
+ });
+
+app.MapPut("api/categoria/alterar/{categoriaId}", ([FromRoute] int categoriaId, 
+[FromBody] Categoria categoriaAlterada, [FromServices] AppDataContext ctx) => 
+{
+    Categoria? categoria = ctx.Categorias.Find(categoriaId);
+    if (categoria == null){
+        return Results.NotFound();
+    }
+    categoria.Nome = categoriaAlterada.Nome;
+    ctx.Categorias.Update(categoria);
+    ctx.SaveChanges();
+    return Results.Ok(categoria);
+});
+
+app.MapDelete("/api/categoria/deletar/{categoriaId}", ([FromRoute] int categoriaId, 
+[FromServices] AppDataContext ctx) => 
+{
+    Categoria? categoria = ctx.Categorias.Find(categoriaId);
+    if(categoria == null)
+    {
+        return Results.NotFound();
+    }
+    ctx.Categorias.Remove(categoria);
+    return Results.Ok(categoria);
+});
 
 //GET: /api/produto/listar
 app.MapGet("/api/produto/listar", ([FromServices] AppDataContext ctx) =>
