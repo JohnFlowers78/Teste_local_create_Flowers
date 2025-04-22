@@ -4,15 +4,16 @@ ________________________________________________________________________________
                     ___________________
             ---      H.I.S.T.Ó.R.I.C.O     ¬                   
                     ===================
+1 - Quase Finalizei o CRUD de Categoria, erros no front, back OK!  --  CommitRealizado/Remoto
 _____________________________________________________________________________________________
-1 - Terminei o CRUD de Categoria  --   Ainda não subi pro commit/commit_nem_concepcionado
+2 - Terminei o CRUD de Categoria  --   Ainda não subi pro commit/commit_nem_concepcionado
 _____________________________________________________________________________________________
-1.1 - Para o front vamos criar uma opção na NavBar ( "Configurações das Categorias" )...
+2.1 - Para o front vamos criar uma opção na NavBar ( "Configurações das Categorias" )...
 		->  Lá que poderemos deletar as categorias ou alterá-las !    --   ?Commit?!
 _____________________________________________________________________________________________
-2 - Adicionei filtros ...   --   Commit_3Filtros_back+react_rotashttp_RR/commit_apenas_local 
+3 - Adicionei filtros ...   --   Commit_3Filtros_back+react_rotashttp_RR/commit_apenas_local 
 _____________________________________________________________________________________________
-3 - Corrigi alguns problemas...   --   Ainda não subi pro commit/commit_nem_concepcionado
+4 - Corrigi alguns problemas...   --   Ainda não subi pro commit/commit_nem_concepcionado
 _____________________________________________________________________________________________
                       _____________
             ---        I.D.É.I.A.S      ¬
