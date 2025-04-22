@@ -9,5 +9,17 @@ POST http://localhost:5020/api/categoria/cadastrar
 Content-Type: application/json
 
 {
-    "nome" : "Relógios"
+    "nome" : "Alimentos"
+}
+
+### Deletar Categoria
+
+DELETE http://localhost:5020/api/categoria/deletar/4
+
+### Alterar Categoria
+PUT http://localhost:5020/api/categoria/alterar/3
+Content-Type: application/json
+
+{
+    "nome" : "Automóveis"
 }

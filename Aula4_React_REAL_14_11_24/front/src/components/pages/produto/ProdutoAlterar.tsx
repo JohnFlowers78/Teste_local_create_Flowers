@@ -120,7 +120,7 @@ function ProdutoAlterar() {
           </select>
         </div>
 
-        <button type="submit">Cadastrar Produto</button>
+        <button type="submit">Alterar Produto</button>
       </form>
     </div>
   );

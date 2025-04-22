@@ -15,6 +15,9 @@ function Nav() {
           <Link to="/pages/produto/listar"> Listar Produtos </Link>
         </li>
         <li>
+          <Link to="/pages/categoria/listar"> Detalhes das Categorias </Link>
+        </li>
+        <li>
           <Link to="/pages/endereco/consultar">
             Consultar Endereço
           </Link>

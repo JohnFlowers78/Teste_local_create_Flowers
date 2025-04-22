@@ -1,7 +1,7 @@
 import { Categoria } from "./Categoria";
 
 export interface Produto {
-  id?: string;
+  id?: number;
   nome: string;
   descricao: string;
   preco: number;
