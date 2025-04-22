@@ -1,0 +1,22 @@
+Declaro aqui que agora que coloquei esta nota dentro da pasta "raiz" do projeto e modifiquei 
+o nome dela, vou adicionar o primeiro item de mudança para fins de aprendizado no Git ...
+_____________________________________________________________________________________________
+                    ___________________
+            ---      H.I.S.T.Ó.R.I.C.O     ¬                   
+                    ===================
+_____________________________________________________________________________________________
+1 - Terminei o CRUD de Categoria  --   Ainda não subi pro commit/commit_nem_concepcionado
+_____________________________________________________________________________________________
+1.1 - Para o front vamos criar uma opção na NavBar ( "Configurações das Categorias" )...
+		->  Lá que poderemos deletar as categorias ou alterá-las !    --   ?Commit?!
+_____________________________________________________________________________________________
+2 - Adicionei filtros ...   --   Commit_3Filtros_back+react_rotashttp_RR/commit_apenas_local 
+_____________________________________________________________________________________________
+3 - Corrigi alguns problemas...   --   Ainda não subi pro commit/commit_nem_concepcionado
+_____________________________________________________________________________________________
+
+
+
+Fiquei pirando em o que poderia usar a página que desenvolvemos com o professor para puxar o 
+endereço de algum CEP que for digitado, buscando via aquela página para webScrapping que veio 
+junto com o projeto base do React que o professor nos passou.

@@ -244,3 +244,4 @@ C:\Users\JoaoPSFlores\Desktop\Exemplo_Curso_API\Aula4_React_REAL_14_11_24\API\AP
 C:\Users\JoaoPSFlores\Desktop\Exemplo_Curso_API\Aula4_React_REAL_14_11_24\API\API\obj\Debug\net8.0\API.pdb
 C:\Users\JoaoPSFlores\Desktop\Exemplo_Curso_API\Aula4_React_REAL_14_11_24\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\JoaoPSFlores\Desktop\Exemplo_Curso_API\Aula4_React_REAL_14_11_24\API\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\JoaoPSFlores\Desktop\Exemplo_Curso_API\Aula4_React_REAL_14_11_24\API\API\obj\Debug\net8.0\API.sourcelink.json
